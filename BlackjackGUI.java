@@ -248,7 +248,8 @@ public class BlackjackGUI extends OurCasino {
         txBet.setBounds(333, 162, 86, 20);
         frame.getContentPane().add(txBet);
         txBet.setColumns(10);
-
+        
+        /* This is the button with issues*/
         btnNewHand = new JButton("New Hand");
         btnNewHand.setFont(new Font("Tahoma", Font.PLAIN, 11));
         btnNewHand.setBounds(10, 227, 110, 23);
